@@ -99,6 +99,25 @@ export default function SurpriseGift() {
               "{secretGift.message}"
             </p>
 
+            {/* Real Gift Delivery Announcement */}
+            {secretGift.giftDeliveryNote && (
+              <motion.div
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.4, delay: 0.3 }}
+                className="my-6 p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-blush-50 via-cream-100 to-rose-50 border border-blush-200 text-center shadow-sm"
+              >
+                <div className="flex items-center justify-center gap-2 text-blush-600 font-serif font-bold text-base sm:text-lg mb-1">
+                  <span>🎀</span>
+                  <span>{secretGift.giftDeliveryTitle}</span>
+                  <span>✨</span>
+                </div>
+                <p className="text-sm sm:text-base text-[#6E5B65] font-medium leading-relaxed">
+                  {secretGift.giftDeliveryNote}
+                </p>
+              </motion.div>
+            )}
+
             <span className="font-script text-2xl text-rosegold-500 font-bold block mt-4">
               {secretGift.signature}
             </span>

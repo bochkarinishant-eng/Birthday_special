@@ -317,29 +317,55 @@ export const birthdayConfig = {
     waxSealText: "FOR AMU",
     openPrompt: "Click to break the wax seal & open your letter",
     readButton: "Read Your Letter 💌",
-    salutation: "A Little Message From Me to You, Amu! ❤️",
-    paragraphs: [
-      "First of all, if you're thinking, \"What is this bullshit he's making?\" 😂 Well, this is just my little attempt to make you smile.",
-      "I genuinely want to see you happy, always. I don't want you to feel sad or lonely. And one thing I really want you to remember is that whenever you feel low, or whenever you need someone to talk to, just send me one message. I'll always try to be there for you.",
-      "And please, don't overthink things like, \"What if he's busy?\" or \"What if he doesn't reply?\" Sometimes I might get caught up with things, or I might miss your message, but that doesn't mean I've changed or that I don't care anymore. Please never measure our friendship by how quickly I reply. I just want you to feel happy and never feel that you're alone.",
-      "And one more thing, please don't share this website with anyone else. 😂❤️ I made this with a particular thought in my mind, and the only reason behind it is to share this little message with you and make you smile. I wanted to do something different, so I thought, why not create something like this just for you?",
-      "**NOW, THE VERY, VERY IMPORTANT THING! 🎂**",
-      "**HAPPY BIRTHDAY TO YOU, AMU!! ❤️🥳**",
-      "I know I'm late, and honestly, I don't have any excuse for that. But if you think I forgot your birthday, then I guess you still don't understand me properly. 😂",
-      "When I take responsibility for a friendship, I take it seriously. I genuinely value the people who matter to me, and I don't take those bonds lightly.",
-      "There's one thing about my personality that I really want to tell you. I have so many things to say, so many thoughts in my mind, and so many feelings to express, but when the time comes, I somehow fail to explain myself properly. That's one of my weaknesses, and I'm working on it. I know it'll take time, but I'm trying.",
-      "There are still so many things I want to tell you, but I don't want to make this message unnecessarily long because today is YOUR DAY! So let's keep the focus on you. ❤️",
-      "And from now onwards, I genuinely want you to be happy. Don't let unnecessary thoughts, situations, or people take away your smile. You deserve happiness, peace, and all the beautiful things life has to offer.",
-      "And if someday you feel that you don't want this friendship anymore, just be honest with me. I'll respect your decision, and I won't force myself into your life. But until then, please don't misunderstand my silence or my busy schedule as a change in my feelings towards our friendship.",
-      "I really do care about you, Amu. Sometimes my mind keeps thinking about whether you're okay, whether you're happy, and whether everything is going well with you. I might not always express it or react to every thought because I have responsibilities and things to manage in my own life too. But that doesn't mean I don't care.",
-      "So, once again...",
-      "**HAPPIEST BIRTHDAY, AMU!! 🦋❤️**",
-      "Keep smiling, keep shining, keep annoying everyone with your craziness, and never stop being the person you are.",
-      "And please, promise me one thing: Don't forget how special you are.",
-      "**THIS LITTLE UNIVERSE IS JUST FOR YOU. ❤️**"
+    salutation: "Dear Amu,",
+    date: "November 3, 2026",
+    sections: [
+      {
+        id: "intro",
+        heading: "Before You Read This... 💌",
+        paragraphs: [
+          "First of all, read this carefully till the end. I know I'm writing a lot of things, and you might even think I'm talking bullshit, but there's a reason behind all this. There is something I genuinely want to convey to you, and I hope you will at least read everything once before judging it."
+        ]
+      },
+      {
+        id: "understand",
+        heading: "Something I Wish You Would Understand... 🌸",
+        paragraphs: [
+          "There is one thing I really want to tell you, and I hope someday you understand what I am trying to say.",
+          "I don't know how to define love perfectly, but I know one thing: love should never make you forget your own worth. Loving someone doesn't mean hurting yourself for them. It doesn't mean putting their happiness above your existence or punishing yourself when things don't happen the way you imagined.",
+          "You can care for someone, give them importance, make compromises and genuinely wish the best for them. But somewhere in all of this, please don't lose yourself.",
+          "And honestly, there is something that hurts me too. When I see you hurting yourself for someone else, I don't know how to explain what goes through my mind. Maybe you don't realise it, but you matter to me. Your happiness matters, your peace matters, and even the little things that affect you matter to me.",
+          "I know I cannot make decisions for you. I cannot decide whom you should love, what you should feel or how you should live your life. Those are your choices, and I respect them. But seeing you treat yourself as though your feelings and your life matter less than someone else's makes me wish you could see yourself the way I see you.",
+          "I don't expect anything from you. I don't want you to change yourself for me, and I don't want you to feel that you owe me anything. I just wish you would start giving yourself the same care that you so willingly give to others.",
+          "You know, sometimes we become so busy trying to be important to someone that we forget that we are already important to other people.",
+          "And I hope you never forget that you are important to me too. Maybe I don't express it every time, maybe I don't always find the right words, and maybe you don't even notice how much I care. But that doesn't make it any less real.",
+          "Please don't hurt yourself to prove your feelings to someone. You deserve happiness that doesn't come at the cost of your own well-being. Your life and your safety are important, regardless of whether someone chooses to stay in your life or not."
+        ],
+        specialQuote: "And if there is one thing I wish for you beyond all your birthday wishes, it is this: May you never have to hurt yourself to feel loved, never have to lose yourself to keep someone, and never question your worth because someone couldn't recognise it.",
+        postQuoteParagraphs: [
+          "Take care of yourself. Not just for the people who care about you, but for yourself.",
+          "You matter. More than you probably realise."
+        ]
+      },
+      {
+        id: "last-thing",
+        heading: "One Last Thing... 💭",
+        paragraphs: [
+          "I know you might not understand all these things right now. I always call you a small kid, don't I? Maybe that's how I've always treated you, and maybe you won't understand why I'm telling you all this. And that's completely okay. I'm not forcing you to understand everything or even expecting you to agree with me. I just wanted to share what I genuinely feel and what I wish you would realise someday.",
+          "Now, enough of my lectures! 😂 Don't let this long message take your focus away from your studies. Do well, keep studying, work towards your dreams and never lose sight of the things that matter for your future. I want to see you doing well in life, achieving the things you dream about and, most importantly, being happy with yourself.",
+          "Sorry for writing such a long message on your birthday. Maybe I had a lot more to say than I could fit into a few words."
+        ],
+        birthdayWish: "Happy Birthday! Keep smiling, keep growing and please take care of yourself. ❤️"
+      },
+      {
+        id: "never-forget",
+        heading: "And Never Forget This... ✨",
+        heroPromise: "WHATEVER HAPPENS, WHATEVER YOU GO THROUGH, I'M ALWAYS HERE FOR YOU.",
+        finalParagraph: "You don't have to face every difficult moment alone. Even when things don't go as you wish, even when life gets difficult, remember that you have someone who genuinely cares about you and will stand beside you. I'M WITH YOU. ❤️"
+      }
     ],
-    signOff: "With all my heart,",
-    author: "— Your Best Friend",
+    signOff: "Always here for you,",
+    author: "— Your Best Friend ❤️",
   },
 
   // ─── 8. THE BIRTHDAY CAKE EXPERIENCE ────────────────────────────────────
@@ -357,8 +383,10 @@ export const birthdayConfig = {
     heading: "Wait, Amu... There's Something Else! 🎁",
     subheading: "You didn't think that was all, did you? Tap the gift box to unlock what's inside...",
     tapToOpen: "Tap to untie ribbon & open gift 🎀",
-    revealedTitle: "A Gentle Reminder To Carry Forever ✨",
+    revealedTitle: "A Secret Surprise For You ✨",
     message: "If there is one thing I want you to remember, it's this: You are important, you are appreciated, and you deserve beautiful things.",
+    giftDeliveryTitle: "A Special Delivery On Its Way 🎁",
+    giftDeliveryNote: "Your actual birthday gift is on its way! You will receive your gift as soon as possible, so keep that beautiful smile ready! 🎀📦✨",
     signature: "Always in your corner 🌷",
   },
 
